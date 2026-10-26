@@ -1,7 +1,6 @@
 import './style.css'
 
-import type { AppState } from './app/state'
-import { render } from './ui/render'
+import { createController } from './app/controller'
 import { createShell } from './ui/shell'
 
 const root = document.querySelector<HTMLElement>('#app')
@@ -11,6 +10,5 @@ if (!root) {
 }
 
 const shell = createShell(root)
-const initialState: AppState = { status: 'empty' }
 
-render(initialState, shell.content)
+createController(shell)

@@ -367,7 +367,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T15 — Controller: fluxo de busca
 
-- [ ] **T15 concluída**
+- [x] **T15 concluída**
 - **Depende de:** T03, T09, T11 a T14
 - **PRD:** §7.2, §7.5, §7.11, §8.1, §10.8, §10.9 (região de status), AC-03, AC-04, AC-05, AC-06, AC-07, AC-09, AC-10
 - **Entregáveis:**
@@ -390,7 +390,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T16 — Controller: timeout, concorrência e foco
 
-- [ ] **T16 concluída**
+- [x] **T16 concluída**
 - **Depende de:** T15
 - **PRD:** §7.5, §9.8, §10.8, §10.11, AC-08, AC-09, AC-10, AC-16
 - **Entregáveis:**

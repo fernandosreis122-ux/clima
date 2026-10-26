@@ -37,7 +37,6 @@ export function createShell(root: HTMLElement): Shell {
   input.maxLength = 80
   input.autocomplete = 'off'
   input.placeholder = 'Digite o nome da cidade'
-  input.setAttribute('aria-describedby', 'city-error')
 
   const submitButton = createElement(
     'button',
@@ -113,4 +112,27 @@ export function setSearchLoading(shell: Shell, isLoading: boolean): void {
   }
 
   shell.submitButton.textContent = SEARCH_SUBMIT_LABEL
+}
+
+export function showFieldError(shell: Shell, message: string): void {
+  const text = createElement('span', 'field-error__text', message)
+
+  shell.fieldError.replaceChildren(
+    createIcon('alert-circle', 'field-error__icon'),
+    text,
+  )
+  shell.fieldError.hidden = false
+  shell.input.setAttribute('aria-invalid', 'true')
+  shell.input.setAttribute('aria-describedby', shell.fieldError.id)
+}
+
+export function clearFieldError(shell: Shell): void {
+  shell.fieldError.replaceChildren()
+  shell.fieldError.hidden = true
+  shell.input.removeAttribute('aria-invalid')
+  shell.input.removeAttribute('aria-describedby')
+}
+
+export function setStatus(shell: Shell, message: string): void {
+  shell.status.textContent = message
 }
