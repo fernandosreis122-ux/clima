@@ -97,7 +97,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T02 — Metadados, favicon e base visual
 
-- [ ] **T02 concluída**
+- [x] **T02 concluída**
 - **Depende de:** T01
 - **PRD:** §10.13, §11.4, §11.5, §11.6 (Página), §9.5
 - **Entregáveis:**

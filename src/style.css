@@ -1,1 +1,96 @@
-/* Estilos da aplicação. */
+:root {
+  color-scheme: light;
+
+  /* Superfícies */
+  --bg: #1b1f27;
+  --surface: #ffffff;
+  --surface-subtle: #f7f8fa;
+  --border: #e6e8ee;
+  --border-subtle: #eef0f4;
+
+  /* Texto */
+  --text: #101828;
+  --text-secondary: #475467;
+  --text-muted: #667085;
+  --text-on-dark: #aab2c0;
+
+  /* Ação */
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: #eff4ff;
+  --focus: #2563eb;
+  --focus-on-dark: #93c5fd;
+
+  /* Estados */
+  --danger: #b42318;
+  --danger-soft: #fef3f2;
+  --danger-on-dark: #fda29b;
+  --warning: #b54708;
+  --warning-soft: #fffaeb;
+  --day: #b45309;
+  --day-soft: #fff7e6;
+  --night: #4338ca;
+  --night-soft: #eef2ff;
+
+  /* Skeleton */
+  --skeleton: #e9ecf1;
+  --skeleton-highlight: #f4f6f9;
+
+  /* Formas */
+  --radius-card: 28px;
+  --radius-panel: 18px;
+  --radius-control: 14px;
+  --radius-pill: 999px;
+
+  /* Sombras */
+  --shadow-card:
+    0 30px 80px rgba(5, 10, 20, 0.45),
+    0 2px 8px rgba(5, 10, 20, 0.24);
+  --shadow-search: 0 10px 30px rgba(0, 0, 0, 0.18);
+
+  /* Tipografia */
+  --font-sans:
+    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+
+  /* Movimento */
+  --transition: 180ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--bg);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-on-dark);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
