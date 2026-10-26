@@ -116,7 +116,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T03 — Infra de testes e normalização de busca
 
-- [ ] **T03 concluída**
+- [x] **T03 concluída**
 - **Depende de:** T02
 - **PRD:** §7.2 (normalização), §9.10, §9.1
 - **Entregáveis:**
