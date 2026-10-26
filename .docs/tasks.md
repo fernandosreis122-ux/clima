@@ -138,7 +138,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T04 — Contratos de domínio e estado
 
-- [ ] **T04 concluída**
+- [x] **T04 concluída**
 - **Depende de:** T01
 - **PRD:** §10.4, §10.5, §9.9
 - **Entregáveis:**
