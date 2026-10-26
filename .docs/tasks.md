@@ -156,7 +156,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T05 — Weather codes e descrições
 
-- [ ] **T05 concluída**
+- [x] **T05 concluída**
 - **Depende de:** T04
 - **PRD:** §7.8, §11.7 (chaves de ícone), §7.4 (`weather_code` desconhecido)
 - **Entregáveis:**
@@ -175,7 +175,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T06 — Formatadores de data, número, unidade e vento
 
-- [ ] **T06 concluída**
+- [x] **T06 concluída**
 - **Depende de:** T04
 - **PRD:** §7.9, §7.10, §10.10, AC-02, AC-14
 - **Entregáveis:**
