@@ -195,7 +195,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T07 — Serviço Open-Meteo: geocodificação
 
-- [ ] **T07 concluída**
+- [x] **T07 concluída**
 - **Depende de:** T04
 - **PRD:** §7.3, §9.3, §9.6, §9.10, §10.6, §10.11
 - **Entregáveis:**
@@ -216,7 +216,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T08 — Serviço Open-Meteo: clima atual
 
-- [ ] **T08 concluída**
+- [x] **T08 concluída**
 - **Depende de:** T07
 - **PRD:** §7.4, §10.6, §10.11, AC-02
 - **Entregáveis:**
@@ -237,7 +237,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T09 — Orquestração da busca
 
-- [ ] **T09 concluída**
+- [x] **T09 concluída**
 - **Depende de:** T07, T08
 - **PRD:** §7.5, §10.7, §9.8
 - **Entregáveis:**
