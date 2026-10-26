@@ -112,9 +112,9 @@ export function degreesToCardinal(degrees: number): string {
   return CARDINALS[index] ?? 'N'
 }
 
-export function formatWindDirection(degrees: number): string {
+export function formatWindDirection(degrees: number, unit = '°'): string {
   const normalized = ((degrees % 360) + 360) % 360
   const displayDegrees = Math.round(normalized) % 360
 
-  return `de ${degreesToCardinal(degrees)} · ${formatMeasurement(displayDegrees, '°')}`
+  return `de ${degreesToCardinal(degrees)} · ${formatMeasurement(displayDegrees, unit)}`
 }

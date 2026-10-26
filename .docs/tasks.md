@@ -259,7 +259,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T10 — Shell, ícones e helpers de UI
 
-- [ ] **T10 concluída**
+- [x] **T10 concluída**
 - **Depende de:** T02, T05
 - **PRD:** §10.9, §7.2, §7.12, §11.6 (Área de busca e Rodapé), §11.7, §9.5
 - **Entregáveis:**
@@ -282,7 +282,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T11 — Empty state e bootstrap
 
-- [ ] **T11 concluída**
+- [x] **T11 concluída**
 - **Depende de:** T04, T10
 - **PRD:** §7.11 (`empty`), §11.6 (Empty state), §11.10, AC-01
 - **Entregáveis:**
@@ -302,7 +302,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T12 — Loading e estado do botão
 
-- [ ] **T12 concluída**
+- [x] **T12 concluída**
 - **Depende de:** T11
 - **PRD:** §7.2 (loading), §7.11 (`loading`), §11.6 (Loading), §11.8, §9.4
 - **Entregáveis:**
@@ -322,7 +322,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T13 — Render do sucesso (sidebar + métricas)
 
-- [ ] **T13 concluída**
+- [x] **T13 concluída**
 - **Depende de:** T05, T06, T10, T11
 - **PRD:** §7.6, §7.7, §7.8, §7.9, §7.10, §11.5, §11.6, AC-02, AC-12, AC-13, AC-14, AC-17
 - **Entregáveis:**
@@ -344,7 +344,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T14 — Render dos erros e retry
 
-- [ ] **T14 concluída**
+- [x] **T14 concluída**
 - **Depende de:** T10, T11
 - **PRD:** §7.11 (`city-not-found`, `weather-unavailable`, `network-error`), §11.6 (Erros), §11.10, AC-05, AC-06, AC-07
 - **Entregáveis:**
