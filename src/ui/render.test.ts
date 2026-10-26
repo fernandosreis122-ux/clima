@@ -120,11 +120,17 @@ describe('loading state', () => {
 
     expect(card).not.toBeNull()
     expect(card?.getAttribute('aria-hidden')).toBe('true')
-    expect(content.querySelectorAll('.skeleton')).toHaveLength(10)
-    expect(content.querySelectorAll('.skeleton--tile')).toHaveLength(4)
+    expect(content.querySelectorAll('.skeleton')).toHaveLength(20)
+    expect(content.querySelectorAll('.skeleton--tile-icon')).toHaveLength(4)
+    expect(content.querySelectorAll('.skeleton--tile-label')).toHaveLength(4)
+    expect(content.querySelectorAll('.skeleton--tile-value')).toHaveLength(4)
+    expect(
+      content.querySelectorAll('.skeleton--tile-secondary'),
+    ).toHaveLength(1)
     expect(sidebar?.querySelector('.skeleton--temperature')).not.toBeNull()
     expect(sidebar?.querySelector('.skeleton--city')).not.toBeNull()
     expect(sidebar?.querySelector('.skeleton--date')).not.toBeNull()
+    expect(sidebar?.querySelector('.skeleton--updated')).not.toBeNull()
     expect(sidebar?.querySelector('.skeleton--badge')).not.toBeNull()
     expect(sidebar?.querySelector('.skeleton--condition-icon')).not.toBeNull()
     expect(sidebar?.querySelector('.skeleton--condition-line')).not.toBeNull()

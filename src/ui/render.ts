@@ -59,7 +59,9 @@ export function renderLoading(content: HTMLElement): void {
     'skeleton skeleton--temperature',
   )
   const city = createElement('div', 'skeleton skeleton--city')
+  const time = createElement('div', 'sidebar-time sidebar-time--loading')
   const date = createElement('div', 'skeleton skeleton--date')
+  const updated = createElement('div', 'skeleton skeleton--updated')
   const badge = createElement('div', 'skeleton skeleton--badge')
   const condition = createElement('div', 'skeleton-condition')
   const conditionIcon = createElement(
@@ -71,17 +73,36 @@ export function renderLoading(content: HTMLElement): void {
     'skeleton skeleton--condition-line',
   )
 
+  time.append(date, updated)
   condition.append(conditionIcon, conditionLine)
-  sidebar.append(temperature, city, date, badge, condition)
+  sidebar.append(temperature, city, time, badge, condition)
 
   const main = createElement('div', 'weather-main')
   const grid = createElement('div', 'metric-grid')
 
   for (let index = 0; index < 4; index += 1) {
     const tile = createElement('div', 'metric-tile metric-tile--loading')
-    const block = createElement('div', 'skeleton skeleton--tile')
+    const icon = createElement(
+      'div',
+      'skeleton skeleton--tile-icon',
+    )
+    const label = createElement(
+      'div',
+      'skeleton skeleton--tile-label',
+    )
+    const value = createElement(
+      'div',
+      'skeleton skeleton--tile-value',
+    )
 
-    tile.append(block)
+    tile.append(icon, label, value)
+
+    if (index === 3) {
+      tile.append(
+        createElement('div', 'skeleton skeleton--tile-secondary'),
+      )
+    }
+
     grid.append(tile)
   }
 

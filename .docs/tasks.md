@@ -415,7 +415,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T17 — Responsividade
 
-- [ ] **T17 concluída**
+- [x] **T17 concluída**
 - **Depende de:** T12, T13, T14
 - **PRD:** §11.2, §11.3, §9.2, AC-15
 - **Entregáveis:**
@@ -436,7 +436,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T18 — Acessibilidade e movimento
 
-- [ ] **T18 concluída**
+- [x] **T18 concluída**
 - **Depende de:** T16, T17
 - **PRD:** §9.5, §11.8, §11.9, AC-16
 - **Entregáveis:**
