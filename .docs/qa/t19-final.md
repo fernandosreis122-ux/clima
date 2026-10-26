@@ -2,8 +2,7 @@
 
 Data: 26/10/2026
 
-Status: **critérios verificados; aguardando aprovação visual final do usuário.**
-A linha da T19 permanece `[ ]` em `.docs/tasks.md` até essa aprovação.
+Status: **T19 concluída; aprovação visual final recebida em 26/10/2026.**
 
 ## Ambiente e método
 
@@ -231,7 +230,7 @@ Os valores exatos do AC-02 foram comprovados com as respostas de exemplo do PRD;
 - Safari nativo não está instalado no Windows; WebKit 27.2 foi usado como equivalente.
 - Os valores do AC-02 são um fixture determinístico do PRD. A API real está acessível e foi validada separadamente com dados atuais.
 
-## Pendência
+## Aprovação final
 
-- Aprovação visual final do usuário em `http://127.0.0.1:4174/`.
-- Após a aprovação, marcar `T19` como concluída em `.docs/tasks.md`.
+- Aprovação visual final do usuário recebida em 26/10/2026.
+- `T19` marcada como concluída em `.docs/tasks.md`.

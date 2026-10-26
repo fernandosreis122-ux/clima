@@ -456,7 +456,7 @@ Válidos para **todas** as tasks, além dos critérios específicos:
 
 ### T19 — QA final e Definition of Done
 
-- [ ] **T19 concluída**
+- [x] **T19 concluída**
 - **Depende de:** T18
 - **PRD:** §12, §14, §16, §10.14, §9.6
 - **Entregáveis:**
